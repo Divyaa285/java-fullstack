@@ -1,20 +1,12 @@
 class Demo{
 	public static void main(String []args){
-	int sum= arithmetic.add(10,20);
-	int sub= arithmetic.sub(10,20);
-	System.out.println(sum);
-	System.out.println(sub);
+	 Codex.fun();
 }
-class arithmetic{
-	static int add(int a,int b){	
-	int sum=a+b;
-	return sum;
 }
-	static int sub(int a,int b){	
-	int sub=a-b;
-	return sub;
-}
+class Codex{
+	void fun(){
+	System.out.println();
 }
 }
 
-O/P- 30,-10
+O/P--error: non-static method fun() cannot be referenced from a static context

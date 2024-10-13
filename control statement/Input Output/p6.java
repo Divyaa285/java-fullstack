@@ -1,23 +1,33 @@
 import java.util.*;
+
 class Demo{
 	public static void main(String []args){
 	Scanner sc=new Scanner(System.in);
-	System.out.println("enter 1st number");
+	System.out.println("enter number a");
 	int a=sc.nextInt();
-	System.out.println("enter 2nd number");
+	System.out.println("enter number b");
 	int b=sc.nextInt();
-	codex chavi=new codex();
+	Codex chavi= new Codex();
 	chavi.add(a,b);
 	chavi.sub(a,b);
-}
-}
-class codex{
-	void add(int x,int y){
-	System.out.println("addition is" + (x+y));
-}
-}
-	void sub(int x,int y){
-	System.out.println("subtraction is" + (x-y));
+	}
 }
 
+class Codex{
+		void add(int a,int b){
+			System.out.println("addition is : "+(a+b));
+			}
+		void sub(int a,int b){
+			System.out.println("substraction is : "+(a-b));
+			}
+}
+
+o/p = 
+enter number a
+20
+enter number b
+10
+addition is : 30
+substraction is : 10
+		
 
