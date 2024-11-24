@@ -10,11 +10,14 @@ class Two{
 	void gun(){
 	System.out.println("in twos gun");
 }
+
+	void fun();
+	System.out.println("in fun");
 	}
 class Demo{
 	public static void main(String[]args){
 	One o = new One();
 	o.display();
-	System.out.println(a);
+	System.out.println(obj);
 }
 	}
